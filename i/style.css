@@ -1,0 +1,31 @@
+/* Reset */
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+html {
+    display: table;
+    margin: auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body { 
+    background-color: #fff; 
+    color: #333; 
+    font: 14px/20px "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif; 
+    background-image: url(bg.png);
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#fish {
+    font-size: 500%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: #DFEFF5;
+    line-height: 150%;
+}
+
